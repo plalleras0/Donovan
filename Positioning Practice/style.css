@@ -1,0 +1,45 @@
+body {
+    font: 1.2em / 1.5 sans-serif;
+    min-height: 200vh;
+    max-width: 600px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    padding: 0.5em;
+    border: 5px solid #ccc;
+  }
+  
+  .target {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: #663398;
+    padding: 1em;
+    color: white;
+    position: absolute;
+    right: 1300px;
+    top: 5px;
+  }
+  
+.container-2 {
+    padding: 0.5em;
+    border: 5px solid #ccc;
+}
+
+.sidebar {
+    color: white;
+    background-color: #663398;
+    padding: 1em;
+    float: left;
+    width: 150px;
+    position:sticky;
+    top:0.5em;
+}
+
+.content {
+    padding: 1em;
+    margin-left: 160px;
+}

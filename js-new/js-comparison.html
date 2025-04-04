@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison and logical Operator</title>
+</head>
+
+<body>
+    <script>
+        // Exercise 1
+        let value1 = 4;
+        let values2 = "helo"
+        let result1 = value1 > 5;
+        let result2 = values2.lenght == 5;
+        console.log(result2);
+        let finalresult = result1 && result2;
+        console.log(finalresult);
+        console.log("Exercise 1");
+
+        // Exercise 2
+
+        let stringA = "apple"
+        let stringB = "banana"
+        let comparisonResult = stringA < stringB
+        console.log(comparisonResult);
+        
+        //busca cual de los dos dentro del abcedario esta primero
+        
+        console.log("Exercise 2");
+
+        
+
+        // Exercise 3
+        let num1 = 7
+        let num2 = "7"
+        let strictEquality = num1 === num2;
+        let looseEquality = num1 == num2 
+        console.log(strictEquality)
+        console.log(looseEquality)
+
+        //== busca el numero mientras tanto el === busca tambien las comilas y las interpreta como letras y entonces no son iguales
+        console.log("Exercise 3");
+
+        // Exercise 4
+        let sunny = false
+        let raining = false
+        let canGoOutside = raining || raining
+
+        console.log(canGoOutside)
+        console.log("Exercise 4")
+
+        // Exercise 5
+
+        let score = 85
+        let highScore = 90
+        let levelCompleted = true
+
+        let bonusAvailable = score >= 80 && levelCompleted
+
+        console.log(bonusAvailable) 
+
+        let extraPoints = score === highScore || levelCompleted
+         
+        console.log(extraPoints)
+        console.log("Exercise 5")
+
+
+
+
+
+
+
+
+
+
+        
+
+
+    </script>
+</body>
+
+
+
+
+
+
+
+
+
+</html>

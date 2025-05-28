@@ -1,0 +1,38 @@
+* {
+    font-family: system-ui;
+}
+
+.operation-button {
+    background-color: red;
+    padding: 1rem;
+    border: 1px solid grey;
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: .25rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.buttons-container {
+    display:flex;
+    gap: 1rem;
+}
+
+input{
+    padding: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+
+#result{
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid gray;
+}

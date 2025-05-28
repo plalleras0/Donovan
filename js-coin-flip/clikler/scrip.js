@@ -1,0 +1,1 @@
+let click-box = document.querySelector("#click-box")

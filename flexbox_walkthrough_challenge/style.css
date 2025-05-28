@@ -1,0 +1,53 @@
+/*Challenge 1*/
+nav ul {  
+    display:flex;
+    align-items:center;
+    height:100px;
+    justify-content: space-between;
+    padding: 1;
+    margin: 1;
+}
+
+button{
+    background-color: rgb(63, 128, 214);
+    font-size: 15px;
+    width: 15%;
+}
+
+a:link{
+    color: white;
+}
+
+
+
+/*Challenge 2*/
+article {
+    padding: 10px;
+    margin: 10px;
+    background:rgb(29, 29, 190);
+    border: black 1px solid;
+    min-width: 400px;
+    flex: 1;
+    color: white;
+    font-size: 23.5px;
+}
+
+
+section {
+    display: flex;
+    flex-direction: row ;
+    height: 300px;
+}
+
+/*Challenge 3*/
+/*Write your CSS here*/
+.parent{
+    display: flex;
+    justify-content: center;
+}
+/*Challenge 4*/
+ul {
+}
+
+li {
+}

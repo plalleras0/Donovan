@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: star;
+        }
+        .input-area{
+            color: red;
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form>
+        <label for="test-checkbox">fiert Name</label>
+        <input class="input-area" type="text" name="test-checkbox" requires>
+        
+        <label for="test-checkbox">last Name</label>
+        <input class="input-area" type="text" name="test-checkbox" requires>
+        
+        <label for="test-checkbox">Email</label>
+        <input class="input-area" type="email" name="test-checkbox" requires>
+        <label for="country">Select country:</label>
+        <select name="country">
+            <option>Mexico</option>
+            <option>United States</option>
+        </select>  
+        
+            <div>
+                <div>
+                    <label for="gender">Select your Gender:</label>
+                </div>
+                     <input type="radio">male
+                     <input type="radio">famele
+            </div>
+             
+
+        <label for="test-checkbox">select your birthdate</label>
+        <input class="input-area" type="date" name="test-checkbox" requires>
+
+        <label for="test-checkbox">your Age</label>
+        <input class="input-area" type="number" name="test-checkbox" requires>
+
+         <label>Select your Favorite Color:</label>
+           <input type="color" required>
+        </select> 
+
+
+        <label for="test-checkbox">chose your file</label>
+        <input class="input-area" type="file" name="test-checkbox" requires>
+
+        <label for="test-checkbox">Password</label>
+        <input class="input-area" type="password" name="test-checkbox" requires>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
